@@ -3,17 +3,15 @@ import os
 import requests
 from colorama import Fore, Style, init
 
-# Initialize colorama for color support
 init()
 
 def fetch_words():
     global words
-    url = "https://raw.githubusercontent.com/gaspertheghost0/hangman/refs/heads/main/words.py"  # Replace with your GitHub URL
+    url = "https://raw.githubusercontent.com/gaspertheghost0/hangman/refs/heads/main/words.py"
     response = requests.get(url)
     
     if response.status_code == 200:
-        # Execute the content of the words.py file to define the 'words' dictionary
-        exec(response.text, globals())  # This will assign 'words' globally
+        exec(response.text, globals())
     else:
         print(f"{Fore.RED}Failed to retrieve words.py from GitHub!{Style.RESET_ALL}")
         exit()
@@ -93,7 +91,6 @@ def display_hangman(tries):
         """
     ]
 
-    # Ensure tries does not exceed the number of stages
     if tries >= len(stages):
         tries = len(stages) - 1
     return stages[tries]
