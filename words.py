@@ -43,19 +43,5 @@ words = {
                  "entropy", "cellular", "cognition", "polymorph", "giga", "photon", "sensor", "energy", "dimensional", 
                  "neuromancer", "quanta", "particle", "quantum", "geocentric", "ultraviolet", "superconductivity", 
                  "gravitational", "seismic", "electromagnetic", "tachyon", "theory", "chronomancy", "hyperspace"],
-        "impossible": ["antimatter", "cognition", "cryptocurrency", "neuroscience", "philosophical", "tachyon", 
-                       "metaphysics", "nanotechnology", "singularity", "teleportation", "aether", "serendipity", 
-                       "paradigm", "multiverse", "quark", "hypothesis", "doppelganger", "chronomancy", "oblivion", 
-                       "neutrinos", "neuromancer", "epistemology", "superconductivity", "astralplane", "darkenergy", 
-                       "psychokinesis", "transcendence", "dimensional", "psionics", "quintessence", "poltergeist", 
-                       "invisibility", "theorems", "supernova", "extraterrestrial", "holography", "enigmatic", 
-                       "gravitational", "nebulous", "timewarp", "chronicle", "extradimensional", "hyperspace", 
-                       "graviton", "inertia", "bioluminescence", "epiphany", "luminosity", "tachyonic", "hydrodynamics", 
-                       "astronautical", "neuralinterface", "paradoxical", "seismograph", "cosmological", "feynman", 
-                       "quantum", "entropy", "molecular", "dynamism", "renormalization", "plasmafield", "superstring", 
-                       "neuralnetwork", "neuronautics", "bioinformatics", "superintelligence", "technotronic", 
-                       "transmutation", "interdimensional", "algorithmic", "metaphysical", "quasars", "cosmography", 
-                       "precognition", "electromagnetic", "superfluid", "xenogenesis", "luminiferous", "bifurcation", 
-                       "virtualization", "tesseract", "exponential", "thermodynamics", "magnetism", "neutrino", "gravity",
-                       "subatomic", "microscope", "photonic", "fractal", "paradox", "luminescence", "vortex", "galaxies"]
+        "impossible": ["sigma"]
     }
